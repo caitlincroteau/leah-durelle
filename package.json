@@ -1,0 +1,19 @@
+{
+  "name": "leah-durelle",
+  "version": "1.0.0",
+  "description": "Leah Durelle, musician.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caitlincroteau/leah-durelle.git"
+  },
+  "author": "Caitlin Croteau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caitlincroteau/leah-durelle/issues"
+  },
+  "homepage": "https://github.com/caitlincroteau/leah-durelle#readme"
+}

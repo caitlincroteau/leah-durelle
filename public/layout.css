@@ -1,0 +1,71 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*
+ * Global layout stuff
+ */
+
+body {
+  color: #545149;
+  background-color: #fcede7;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-top: 30px;
+  width: 90%;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.container {
+  color: #545149;
+  background-color: white;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.disc-img {
+  height: 150px;
+  width: 150px;
+}
+
+.discs {
+  display: flex;
+  flex-direction: row;
+}
+
+.headshot-img {
+  height: 300px;
+  width: 300px;
+}
